@@ -1,0 +1,19 @@
+# Data (not redistributed)
+data/
+ingested/
+
+# Trained models and MLflow runs (retrain with pipeline/pipeline.py)
+artifacts/
+mlruns/
+mlflow.db
+
+# SageMaker packaging output
+model/
+model.tar.gz
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
